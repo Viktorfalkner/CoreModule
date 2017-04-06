@@ -14,6 +14,7 @@
 		36144B661E96C2B1001FF664 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 36144B641E96C2B1001FF664 /* LaunchScreen.storyboard */; };
 		36144B711E96C2B2001FF664 /* submodule_coreTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36144B701E96C2B2001FF664 /* submodule_coreTests.swift */; };
 		36144B7C1E96C2B2001FF664 /* submodule_coreUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36144B7B1E96C2B2001FF664 /* submodule_coreUITests.swift */; };
+		36144B8A1E96C312001FF664 /* BackgroundColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36144B891E96C312001FF664 /* BackgroundColorExtension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		36144B771E96C2B2001FF664 /* submodule-coreUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "submodule-coreUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		36144B7B1E96C2B2001FF664 /* submodule_coreUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = submodule_coreUITests.swift; sourceTree = "<group>"; };
 		36144B7D1E96C2B2001FF664 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		36144B891E96C312001FF664 /* BackgroundColorExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BackgroundColorExtension.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +101,7 @@
 			children = (
 				36144B5B1E96C2B1001FF664 /* AppDelegate.swift */,
 				36144B5D1E96C2B1001FF664 /* ViewController.swift */,
+				36144B891E96C312001FF664 /* BackgroundColorExtension.swift */,
 				36144B5F1E96C2B1001FF664 /* Main.storyboard */,
 				36144B621E96C2B1001FF664 /* Assets.xcassets */,
 				36144B641E96C2B1001FF664 /* LaunchScreen.storyboard */,
@@ -261,6 +264,7 @@
 			files = (
 				36144B5E1E96C2B1001FF664 /* ViewController.swift in Sources */,
 				36144B5C1E96C2B1001FF664 /* AppDelegate.swift in Sources */,
+				36144B8A1E96C312001FF664 /* BackgroundColorExtension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
